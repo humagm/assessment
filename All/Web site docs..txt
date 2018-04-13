@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<style type="text/css">
+body {
+     margin-left:auto;
+     margin-right:auto; 
+     background-image: url("Images/piha.jpg");
+	 background-attachment: fixed;
+     background-position:center;
+	 background-color:darkolivegreen;
+	 background-repeat: no-repeat;
+	 background-size: 1975px 1000px;
+}
+
+
+
+
+.header {
+	text-align:center;
+	height:50px;
+	width:90%;
+	margin-left:5%;
+    margin-right:auto;
+	position:fixed; 
+	background:#eee;
+	border:3px solid;
+}
+.footer {
+ 	position: floating;
+ 	width:85%;
+    margin-left:7.5%;
+ 	bottom: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+  	background-color: #cfcfcf;
+  	text-align: center;
+}
+.content {
+	width:90%;
+	background:#eee;
+	border:1px solid #111;
+	margin: auto;
+}
+
+
+</style>
+</head>
+<body>
+		<div id="page">
+		<div id="logo">
+		<h1><a href="/" id="logoLink"></a></h1>
+		</div>
+		<div id="nav">
+			<ul>
+				<li><a href="#/home.html">Home</a></li>
+				<li><a href="#/about.html">About</a></li>
+				<li><a href="#/contact.html">Contact</a></li>
+			</ul>	
+		</div>
+	
+			
+<div class="header">
+<h2 style="color:black">Tourism in New Zealand</h2>
+</div>
+
+
+<br><br><br>
+<div style="content>"
+<p align ="center">	<br><br><br><Br>
+		<br><br><br><br>
+text on the screen
+<br><br><br><br>
+text on the screen
+<br><br><br><br>
+<br><br><br><br>
+text on the screen
+<br><br><br><br>
+text on the screen
+<br><br><br><br>
+<br><br><br><br>
+text on the screen
+<br><br><br><br>
+text on the screen
+<br><br><br><br>
+<br><br><br><br>
+text on the screen
+<br><br><br><br>
+text on the screen
+<br><br><br><br>
+<br><br><br><br>
+text on the screen
+<br><br><br><br>
+text on the screen
+<br><br><br><br>
+<br><br><br><br>
+text on the screen
+<br><br><br><br>
+text on the screen
+<br><br><br><br>
+    
+
+<img src="Images/Tourism.jpg" width="1200" height="700" size ="900px 900px"  />
+ </p>
+<p size ="1200px 900px"> <br><br><br><Br>
+</p>	
+</div
+</body>
+</html>

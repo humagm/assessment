@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        	<link rel="stylesheet" type="text/css"href="style.css">
+        <meta charset="utf-8">
+        <style>
+            table {
+                border-collapse: collapse;
+                border: 2px black solid;
+                font: 12px sans-serif;
+            }
+
+            td {
+                border: 1px black solid;
+                padding: 5px;
+            }
+
+	div { 
+	    text-align:center;
+	    }
+
+        </style>
+    </head>
+<body>
+    <nav>
+        <ul>
+                       <li><a href="index.html">Home</a></li>
+                       <li><a href="pictures.html">Images</a></li>
+                       <li><a href="java.html">Java</a></li>
+                       <li><a href="videos.html">Videos</a></li>
+                       <li><a href="Gallery.html">Gallery</a></li>
+                       <li><a href="Dedication.html">Dedication</a></li>
+                       <li><a href="Refrence.html">Refrence</a></li>
+                   </ul>
+       </nav>
+       <div id="Contents">
+      
+     </div>
+<br>
+<br>
+<br>
+<div>
+<h3>
+This page contains an embedded java script. The script opens an external csv formatted file.<br>
+The ability to open an external file enables us to read data supplied by external programs<br>
+We could read the current weather conditions or the contents of a servers log files<br><br>
+The external file is read by the script and turned into an HTML Table, with visible borders.<br><br>
+To run the script click on the activator below<br>
+</h3><br>
+</div>
+<h2><font color="red"><p  align="center" id="demo" onclick="mytable()">RUN_SCRIPT</p></font></h2>
+
+
+<script src="d3.v3.min.js"></script> 
+
+<script type="text/javascript"charset="utf-8"> 
+function mytable() {
+            d3.text("data.csv", function(data) {
+                var parsedCSV = d3.csv.parseRows(data);
+                var container = d3.select("body")
+                    .append("table")
+                    .selectAll("tr")
+                        .data(parsedCSV).enter()
+                       .append("tr")
+                    .selectAll("td")
+                        .data(function(d) { return d; }).enter()
+                        .append("td")
+                        .text(function(d) { return d; });
+            });
+	}
+ </script>
+   <div class="footer">
+        <strong>Posted by: Milan Humagain</strong><br>
+        <strong>Tourism in New Zealand@Copyright 2017</strong>
+   </br>
+    </div>
+</body>
+
+</html> 

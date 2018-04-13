@@ -1,0 +1,8 @@
+C:\Users\milan humagain\desktop\practice\bin\Debug\netcoreapp1.1\practice.deps.json
+C:\Users\milan humagain\desktop\practice\bin\Debug\netcoreapp1.1\practice.runtimeconfig.json
+C:\Users\milan humagain\desktop\practice\bin\Debug\netcoreapp1.1\practice.runtimeconfig.dev.json
+C:\Users\milan humagain\desktop\practice\obj\Debug\netcoreapp1.1\practice.AssemblyInfo.cs
+C:\Users\milan humagain\desktop\practice\bin\Debug\netcoreapp1.1\practice.dll
+C:\Users\milan humagain\desktop\practice\bin\Debug\netcoreapp1.1\practice.pdb
+C:\Users\milan humagain\desktop\practice\obj\Debug\netcoreapp1.1\practice.dll
+C:\Users\milan humagain\desktop\practice\obj\Debug\netcoreapp1.1\practice.pdb

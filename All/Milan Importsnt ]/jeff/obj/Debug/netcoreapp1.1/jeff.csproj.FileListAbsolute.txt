@@ -1,0 +1,8 @@
+C:\Users\milan humagain\desktop\jeff\bin\Debug\netcoreapp1.1\jeff.deps.json
+C:\Users\milan humagain\desktop\jeff\bin\Debug\netcoreapp1.1\jeff.runtimeconfig.json
+C:\Users\milan humagain\desktop\jeff\bin\Debug\netcoreapp1.1\jeff.runtimeconfig.dev.json
+C:\Users\milan humagain\desktop\jeff\obj\Debug\netcoreapp1.1\jeff.AssemblyInfo.cs
+C:\Users\milan humagain\desktop\jeff\bin\Debug\netcoreapp1.1\jeff.dll
+C:\Users\milan humagain\desktop\jeff\bin\Debug\netcoreapp1.1\jeff.pdb
+C:\Users\milan humagain\desktop\jeff\obj\Debug\netcoreapp1.1\jeff.dll
+C:\Users\milan humagain\desktop\jeff\obj\Debug\netcoreapp1.1\jeff.pdb
